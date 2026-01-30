@@ -32,8 +32,7 @@ let package = Package(
             dependencies: [
                 .product(name: "SwiftSyntax", package: "swift-syntax"),
                 .product(name: "SwiftParser", package: "swift-syntax"),
-            ],
-            path: "Sources/DuplicateDetectorTool"
-        ),
+            ]
+        )
     ]
 )
